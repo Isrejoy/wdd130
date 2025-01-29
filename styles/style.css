@@ -1,0 +1,38 @@
+/* p {
+    font-size: 20px;
+    font-weight: bold;
+    color: skyblue;
+}
+
+h1{
+    color: aqua;
+}
+
+footer p{
+    color: #000;
+}
+
+body{
+    background-image: url("../images/bkg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+
+
+body{
+    background-color: skyblue;
+    font-size: 30px;
+}
+
+
+header{
+    background-color: white;
+
+}
+
+
+h1{
+    font-size: 1rem;
+}

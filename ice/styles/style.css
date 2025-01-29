@@ -1,0 +1,33 @@
+body {
+    background-color: #5ca1d7;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+header {
+    color: white;
+}
+
+
+h1, h3 {
+    font-family: sans-serif;
+}
+
+
+h1 {
+    font-size: 3em;
+}
+
+
+img {
+    width: 30%;
+}
+
+
+ol {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
