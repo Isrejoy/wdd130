@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#cherries {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #b9b8b9;
+}
+
+#cherries h1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    align-content: end;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12vw;
+    letter-spacing: 1vw;
+    z-index: 2;
+}
+
+#cherries img {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+
+#cherries h2 {
+    color: #9c0e11;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6vw;
+    letter-spacing: 1vw;
+    text-align: center;
+    align-content: center;
+}
