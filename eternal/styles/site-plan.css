@@ -42,6 +42,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 img {
   display: block;
   margin: 0 auto;
@@ -49,6 +50,7 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+  text-shadow: 2px 2px 5px black;
 }
 h2 {
   text-align: center;
@@ -72,6 +74,8 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
+  text-shadow: 1px 1px 3px black;
+  font-weight: 600;
 }
 .colors {
   width: 100%;
