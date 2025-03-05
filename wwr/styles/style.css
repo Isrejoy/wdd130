@@ -28,6 +28,11 @@ header {
     grid-template-columns: 150px auto;
 }
 
+header.not-transparent {
+    background-color: #124b22;
+}
+
+
 .logo,
 .icon {
     width: 80px;
