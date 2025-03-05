@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 15px;
+    font-family: "Roboto Slab", Arial, sans-serif;
+    overflow: hidden;
+}
+
+img {
+    grid-column: 1/4;
+    width: 100%;
+}
+
+h6 {
+    color: #3f5b8b;
+}
+
+#heading {
+    grid-column: 1/4;
+    text-align: center;
+    margin: 20px;
+}
+
+#main-p {
+    grid-column: 1/4;
+    margin: 0 30px 30px 30px;
+    text-align: center;
+    color: #8b808b;
+}
+
+.footer {
+    background-color: #3f5b8b;
+    color: white;
+    text-align: center;
+    height: 80px;
+    align-content: center;
+    border: 1px solid #808080;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.number {
+    font-size: 1.5em;
+}
+
+.words {
+    font-size: 0.7em;
+}
