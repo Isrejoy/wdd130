@@ -11,6 +11,12 @@ Fonts are separated by a | */
   src: url(../fonts/MaoKenShiJinHei-2.ttf);
 }
 
+@font-face {
+  font-family: simhei;
+  src: url(../fonts/simhei.ttf);
+}
+
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #0077b6   ;
@@ -33,6 +39,12 @@ Fonts are separated by a | */
   --nav-hover-link-color: #0077b6;
   --nav-hover-background-color: #f8f7ff;
 }
+
+.ta {
+  font-family: simhei;
+  font-weight: bold;
+}
+
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
