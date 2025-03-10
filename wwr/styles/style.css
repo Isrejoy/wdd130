@@ -291,7 +291,7 @@ footer .social img {
 
 .landscape-with-text img {
     grid-row: 2/4;
-    max-width: 100%;
+
     align-self: center;
 }
 
