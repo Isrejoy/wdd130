@@ -291,7 +291,7 @@ footer .social img {
 
 .landscape-with-text img {
     grid-row: 2/4;
-
+    width: 100%;
     align-self: center;
 }
 
@@ -299,10 +299,12 @@ footer .social img {
     align-content: end;
     font-family: 'Fugaz One', Verdana, sans-serif;
     color: #124b22;
+    margin-left: 50px;
 }
 
 .landscape-with-text p {
     font-size: 0.9em;
+    margin-left: 50px;
 }
 
 .landscape-with-text-2 {
@@ -314,16 +316,18 @@ footer .social img {
     align-content: end;
     font-family: 'Fugaz One', Verdana, sans-serif;
     color: #124b22;
+    margin-right: 50px;
 }
 
 .landscape-with-text-2 p {
     font-size: 0.9em;
+    margin-right: 50px;
 }
 
 .landscape-with-text-2 img {
     grid-column: 2/3;
     grid-row: 2/4;
-    max-width: 100%;
+    width: 100%;
     align-self: center;
 }
 
