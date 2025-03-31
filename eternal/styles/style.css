@@ -38,9 +38,11 @@ body {
 
 .transparent-content {
     max-width: 800px;
-    background-color: rgba(0, 119, 182, 0.4);
+    background-color: rgba(0, 119, 182, 0.7);
     margin: 0 auto;
     border-radius: 20px;
+    display: grid;
+    overflow: hidden;
 }
 
 #logo {
@@ -95,22 +97,28 @@ main {
 }
 
 main img {
-    max-width: 88%;
-    border-radius: 20px;
+    max-width: 100%;
+    /* border-radius: 20px; */
     margin: 0 auto;
-    margin-top: 1em;
-    box-shadow: 0px 0px 6px white;
+    /* margin-top: .1em; */
+    /* box-shadow: 0px 0px 6px white; */
+
 }
 
 main p {
     text-indent: 2em;
-    max-width: 88%;
+    max-width: 100%;
     margin: 0 auto;
-    margin-top: 2em;
+    /* margin-bottom: 2em; */
     color: #f8f7ff;
-    font-size: 1.6em;
+    font-size: 150%;
     font-family: maoken;
     text-shadow: 2px 2px 4px #003566;
+    padding: 1.25em;
+}
+
+.make-this-no-bottom-padding {
+    padding-bottom: 0;
 }
 
 .blank-content {
@@ -118,7 +126,7 @@ main p {
 }
 
 .blank-space {
-    height: 1em;
+    height: 0.75em;
 }
 
 .link-button {
@@ -129,7 +137,7 @@ main p {
     font-family: maoken;
     border-radius: 10000px;
     padding: 0.4em;
-    margin: 1em 3.5em;
+    margin: 1.1em 3em;
     text-decoration: none;
     text-align: center;
     text-shadow: 4px 4px 4px #999;
@@ -142,6 +150,53 @@ main p {
     text-shadow: 0px 0px 10px #ddd;
 }
 
+/* Page 1 Start */
+.content-grid {
+    display: grid;
+}
+
+.vertical-text-box {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.vertical-text {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.vertical-text p {
+    padding: 1.35em;
+    text-indent: 2em;
+    padding-bottom: 0;
+}
+
+.vertical-text p:last-of-type {
+    text-align: right;
+    font-size: 1.25em;
+    padding: 2em 1.62em;
+}
+
+.vertical-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.vertical-text a:hover {
+    text-decoration: underline;
+}
+
+
+#ellipse-no-padding-1, #ellipse-no-padding-2 {
+    padding: 0 1.5em;
+}
+
+.vertical-image {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+/* Page 1 End */
 
 footer {
     display: grid;
