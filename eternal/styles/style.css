@@ -163,6 +163,7 @@ main p {
 .vertical-text {
     grid-row: 1/2;
     grid-column: 1/2;
+
 }
 
 .vertical-text p {
